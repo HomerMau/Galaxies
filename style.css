@@ -28,13 +28,12 @@ header p {
   font-weight: 600;
   font-size: 32px;
   line-height: 40px;
-  
+
   color: #e1e1e6;
-  
 }
 
 main {
-margin-top: 62px;
+  margin-top: 62px;
   display: grid;
   grid-template-columns: repeat(3, 370px);
 
@@ -49,16 +48,24 @@ margin-top: 62px;
 }
 
 .card h2 {
-  color: #e1e1e6;
+  color: #9b0ab4;
   font-weight: 900;
   font-size: 36px;
   padding: 24px 32px 0;
 }
 
 .card p {
-  color: #C4C4CC;
+  color: #c4c4cc;
   font-size: 18px;
   font-weight: 600;
-    padding: 24px 32px 32px;
+  padding: 24px 32px 32px;
+}
 
+.card img {
+  transition: all 200ms ease-out;
+}
+
+.card img:hover {
+  filter: hue-rotate(7deg) contrast(101%) saturate(200%);
+  transform: scale(1.1);
 }
